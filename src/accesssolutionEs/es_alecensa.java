@@ -17,7 +17,7 @@ public class es_alecensa {
 		
 		// ---->> ALECENSA <<---- 38 screenshot for alecensa
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/alecensa.html");
-		fullscreen.desktopScreenshots(driver, "es", "alecensa", "accesssolutions-patient-alecensa-0-0");
+		fullscreen.desktopScreenshots(driver, "es", "alecensa", "accesssolutions-patient-alecensa-0.0");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/alecensa/how-we-help-you.html");
 		fullscreen.desktopScreenshots(driver, "es", "alecensa", "accesssolutions-patient-alecensa-1.0");
@@ -187,7 +187,7 @@ public class es_alecensa {
 		
 		// ---->> ALECENSA <<---- 38 screenshot for alecensa
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/alecensa.html");
-		fullscreen.mobileScreenshots(driver, "es", "alecensa", "accesssolutions-mobile-patient-alecensa0-0");
+		fullscreen.mobileScreenshots(driver, "es", "alecensa", "accesssolutions-mobile-patient-alecensa-0.0");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/alecensa/how-we-help-you.html");
 		fullscreen.mobileScreenshots(driver, "es", "alecensa", "accesssolutions-mobile-patient-alecensa-1.0");

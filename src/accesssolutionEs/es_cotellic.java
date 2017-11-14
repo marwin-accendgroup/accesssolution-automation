@@ -87,7 +87,7 @@ public class es_cotellic {
 		fullscreen.desktopScreenshots(driver, "es", "cotellic",   "accesssolutions-patient-cotellic-3.0-tab3");
 		
 		driver.findElement(By.xpath("//*[@id='accordion_1789943255']/div[2]/div[1]")).click();
-		movecursor1(driver);
+		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "cotellic",   "accesssolutions-patient-cotellic-3.0-tab4");
 		
 		driver.findElement(By.xpath("//*[@id='accordion_2']/div[1]/div[1]")).click();

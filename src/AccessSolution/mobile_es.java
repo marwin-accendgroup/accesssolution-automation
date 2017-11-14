@@ -45,8 +45,7 @@ public class mobile_es {
 //		es_gazyva.gazyva_mobile(driver);  					// |		39		|
 //		es_hemlibra.helimbra_mobile(driver);				// |		38		|
 //		es_herceptin.herceptin_mobile(driver);				// |		39		|
-
-		es_kadcyla.kadcyla_mobile(driver);					// |		38		|
+//		es_kadcyla.kadcyla_mobile(driver);					// |		38		|
 //		es_lucentis.lucentis_mobile(driver);				// | 		42		|
 //		es_ocrevus.ocrevus_mobile(driver);					// |		38		|
 //		es_perjeta.perjeta_mobile(driver);					// |		38		|
@@ -58,8 +57,8 @@ public class mobile_es {
 //		es_tarceva.tarceva_mobile(driver); 					// |		40		|
 //		es_tecentriq.tecentriq_mobile(driver); 				// |		39		|
 //		es_venclexta.venclexta_mobile(driver); 				// |		37		|
-//		es_xolair.xolair_mobile(driver); 					// |		41		|
-//		es_zelboraf.zelboraf_mobile(driver); 				// |		39		|
+		es_xolair.xolair_mobile(driver); 					// |		41		|
+		es_zelboraf.zelboraf_mobile(driver); 				// |		39		|
 															// | total:			|
 		driver.quit();
 	}

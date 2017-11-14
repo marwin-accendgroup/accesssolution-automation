@@ -177,7 +177,7 @@ public class es_ocrevus {
 		fullscreen.desktopScreenshots(driver, "es", "ocrevus",  "accesssolutions-patient-ocrevus-search");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/ocrevus/site-map.html");
-		fullscreen.desktopScreenshots(driver, "es", "ocrevus",  "accesssolutions-patient-ocrevus-site-map");			
+		fullscreen.desktopScreenshots(driver, "es", "ocrevus",  "accesssolutions-patient-ocrevus-sitemap");			
 	}
 	public static void ocrevus_mobile(WebDriver driver) throws InterruptedException{
 		
@@ -215,19 +215,19 @@ public class es_ocrevus {
 		driver.findElement(By.className("start-over")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(1000);
-		WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div"));
-		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:50px;')",element);
-		driver.findElement(By.linkText("How do I enroll?")).click();
-		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:0px;')",element);
+//		WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div"));
+//		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:50px;')",element);
+		driver.findElement(By.linkText("¿Cómo me inscribo?")).click();
+//		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:0px;')",element);
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "ocrevus",   "accesssolutions-mobile-patient-ocrevus-1.0-step1");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("What will we find out?")).click();
+		driver.findElement(By.linkText("¿Qué averiguaremos?")).click();
 		fullscreen.mobileScreenshots(driver, "es", "ocrevus",   "accesssolutions-mobile-patient-ocrevus-1.0-step2");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("What options are there?")).click();
+		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
 		fullscreen.mobileScreenshots(driver, "es", "ocrevus",   "accesssolutions-mobile-patient-ocrevus-1.0-step3");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/ocrevus/forms-and-documents.html");
@@ -329,7 +329,7 @@ public class es_ocrevus {
 		fullscreen.mobileScreenshots(driver, "es", "ocrevus",  "accesssolutions-mobile-patient-ocrevus-search");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/ocrevus/site-map.html");
-		fullscreen.mobileScreenshots(driver, "es", "ocrevus",  "accesssolutions-mobile-patient-ocrevus-site-map");
+		fullscreen.mobileScreenshots(driver, "es", "ocrevus",  "accesssolutions-mobile-patient-ocrevus-sitemap");
 	}
 	public static void movecursor(WebDriver driver) {
 		

@@ -21,7 +21,7 @@ public class es_avastin {
 		fullscreen.desktopScreenshots(driver, "es", "avastin",   "accesssolutions-patient-avastin-0.0");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/avastin/how-we-help-you.html");
-		movecursorm(driver);
+		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "avastin",   "accesssolutions-patient-avastin-1.0");
 		
 		driver.findElement(By.xpath("//*[@id='accordion_5']/div/div[1]")).click();
@@ -55,7 +55,7 @@ public class es_avastin {
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
-		movecursor1(driver);
+		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "avastin",  "accesssolutions-patient-avastin-1.0-GATCF-1");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
@@ -64,7 +64,7 @@ public class es_avastin {
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
-		movecursor1(driver);
+		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "avastin",  "accesssolutions-patient-avastin-1.0-GATCF-2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
@@ -107,8 +107,10 @@ public class es_avastin {
 		
 		driver.findElement(By.xpath("//*[@id='accordion_25289535']/div/div[1]")).click();
 		movecursor(driver);
+		driver.manage().window().setSize(new Dimension(1621,760));
 		fullscreen.desktopScreenshots(driver, "es", "avastin",   "accesssolutions-patient-avastin-3.0-tab3");
 		
+		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//*[@id='accordion_2']/div[1]/div[1]")).click();
 		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "avastin",   "accesssolutions-patient-avastin-3.0-tab4");

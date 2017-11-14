@@ -16,8 +16,8 @@ public class es_patient {
 		
 		//---->> patient <<---- 12 screenshot for patient homepage
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient.html");
-		driver.findElement(By.id("select-treatment")).click();
-		visiblescreen.desktopScreenshots(driver, "es", "patient",  "accesssolutions-patient-select-treatment");
+//		driver.findElement(By.id("select-treatment")).click();
+//		visiblescreen.desktopScreenshots(driver, "es", "patient",  "accesssolutions-patient-select-treatment");
 		
 		Thread.sleep(1000);
 		driver.findElement(By.className("product-popup")).click();
@@ -29,17 +29,26 @@ public class es_patient {
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient.html");
 		fullscreen.desktopScreenshots(driver, "es", "patient",  "accesssolutions-patient-0.0");
 		
-		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/home.html");
-		fullscreen.desktopScreenshots(driver, "es", "patient",  "accesssolutions-patient-home");
+		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/pan.html");
+		fullscreen.desktopScreenshots(driver, "es", "patient", "accesssolutions-patient-pan");
 		
-		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/home/patient-assistance-tool-page.html");
-		fullscreen.desktopScreenshots(driver, "es", "patient",  "accesssolutions-patient-pat");
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/a")).click();
+		fullscreen.desktopScreenshots(driver, "es", "patient", "accesssolutions-patient-pan-popup-1");	
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[3]/div[1]/a")).click();
+		fullscreen.desktopScreenshots(driver, "es", "patient", "accesssolutions-patient-pan-popup-2");	
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div[1]/a")).click();
+		fullscreen.desktopScreenshots(driver, "es", "patient", "accesssolutions-patient-pan-popup-3");	
+				
+//		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/home.html");
+//		fullscreen.desktopScreenshots(driver, "es", "patient",  "accesssolutions-patient-home");
+		
+//		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/home/patient-assistance-tool-page.html");
+//		fullscreen.desktopScreenshots(driver, "es", "patient",  "accesssolutions-patient-pat");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/search.html");
 		fullscreen.desktopScreenshots(driver, "es", "patient",   "accesssolutions-patient-search");
-		
-		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/pan.html");
-		fullscreen.desktopScreenshots(driver, "es", "patient",   "accesssolutions-patient-pan");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/biooncology.html");
 		fullscreen.desktopScreenshots(driver, "es", "patient",   "accesssolutions-patient-biooncology");

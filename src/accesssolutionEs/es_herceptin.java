@@ -183,7 +183,7 @@ public class es_herceptin {
 		fullscreen.desktopScreenshots(driver, "es", "herceptin",  "accesssolutions-patient-herceptin-search");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/herceptin/site-map.html");
-		fullscreen.desktopScreenshots(driver, "es", "herceptin",  "accesssolutions-patient-herceptin-site-map");			
+		fullscreen.desktopScreenshots(driver, "es", "herceptin",  "accesssolutions-patient-herceptin-sitemap");			
 	}
 	public static void herceptin_mobile(WebDriver driver) throws InterruptedException{
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
@@ -333,17 +333,11 @@ public class es_herceptin {
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
 		fullscreen.mobileScreenshots(driver, "es", "herceptin",  "accesssolutions-mobile-patient-herceptin-pat-3");
 
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "herceptin",  "accesssolutions-mobile-patient-herceptin-pat4-no");
-
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/herceptin/search.html");
 		fullscreen.mobileScreenshots(driver, "es", "herceptin",  "accesssolutions-mobile-patient-herceptin-search");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/herceptin/site-map.html");
-		fullscreen.mobileScreenshots(driver, "es", "herceptin",  "accesssolutions-mobile-patient-herceptin-site-map");
+		fullscreen.mobileScreenshots(driver, "es", "herceptin",  "accesssolutions-mobile-patient-herceptin-sitemap");
 		
 	}
 	public static void movecursor(WebDriver driver) {

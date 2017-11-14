@@ -26,15 +26,13 @@ public class es_hemlibra {
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[1]")).click();
 		fullscreen.desktopScreenshots(driver, "es", "hemlibra",  "accesssolutions-patient-hemlibra-1.0-GATCF-1");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.className("start-over")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
 		fullscreen.desktopScreenshots(driver, "es", "hemlibra",  "accesssolutions-patient-hemlibra-1.0-GATCF-2");
 		
@@ -81,10 +79,10 @@ public class es_hemlibra {
 		fullscreen.desktopScreenshots(driver, "es", "hemlibra",   "accesssolutions-patient-hemlibra-3.0-tab3");
 		
 		driver.findElement(By.xpath("//*[@id='accordion_295986680']/div[2]/div[1]")).click();
-		movecursor3(driver);
+		movecursor(driver);
+		driver.manage().window().setSize(new Dimension(1621,710));
 		fullscreen.desktopScreenshots(driver, "es", "hemlibra",   "accesssolutions-patient-hemlibra-3.0-tab4");
 		
-		driver.manage().window().setSize(new Dimension(1621,710));
 		driver.findElement(By.xpath("//*[@id='accordion_2']/div[1]/div[1]")).click();
 		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "hemlibra",   "accesssolutions-patient-hemlibra-3.0-tab5");
@@ -343,16 +341,6 @@ public class es_hemlibra {
 		
 		jse.executeScript("window.scrollTo(0, 0)");
 		element = driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/button"));
-		action.moveToElement(element).build().perform();
-	}
-	public static void movecursor3(WebDriver driver) {
-		
-		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		Actions action = new Actions(driver);
-		WebElement element;
-		
-		jse.executeScript("window.scrollTo(0, 0)");
-		element = driver.findElement(By.xpath("//*[@id='logo']/a/div/img"));
 		action.moveToElement(element).build().perform();
 	}
 }

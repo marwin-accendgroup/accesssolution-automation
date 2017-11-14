@@ -313,7 +313,7 @@ public class ocrevus {
 		
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "en", "ocrevus",  "accesssolutions-mobile-patient-ocrevus-pat-2");
+		fullscreen.mobileScreenshots(driver, "en", "perjeta",  "accesssolutions-mobile-patient-ocrevus-pat-2");
 		Thread.sleep(1000);
 		jse.executeScript("window.scrollTo(0, 0)");
 		

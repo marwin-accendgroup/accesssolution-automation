@@ -120,12 +120,12 @@ public class es_xolair {
 		fullscreen.desktopScreenshots(driver, "es", "xolair",   "accesssolutions-patient-xolair-3.0-tab11");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/xolair/patient-assistance-tool-page.html");
-		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat1-part1");
+		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-part1");
 		jse.executeScript("window.scrollTo(0, 0)");
 		
-		actions.moveToElement(driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[4]/div/p[6]"))).build().perform();
+		actions.moveToElement(driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[5]/div[2]/fieldset/button[1]"))).build().perform();
 		Thread.sleep(1000);
-		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-1-part2");
+		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-part2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(500);
@@ -136,11 +136,11 @@ public class es_xolair {
 		
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
-		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-2-part1");
+		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-1-part1");
 		
 		actions.moveToElement(driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[3]/div/p[6]"))).build().perform();
 		Thread.sleep(1000);
-		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-2-part2");
+		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-1-part2");
 		
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
@@ -154,11 +154,11 @@ public class es_xolair {
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[5]/div[2]/fieldset/button[1]")).click();
-		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-3-part1");
+		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-2-part1");
 		
 		actions.moveToElement(driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[2]/div/p[6]"))).build().perform();
 		Thread.sleep(1000);
-		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-3-part2");
+		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-pat-2-part2");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/xolair/search.html");
 		fullscreen.desktopScreenshots(driver, "es", "xolair",  "accesssolutions-patient-xolair-search");
@@ -190,76 +190,47 @@ public class es_xolair {
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF1-yes");
-
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF3-yes");
-
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF4-yes");
-
+		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-1.0-GATCF-1");
+		
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.className("start-over")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF1-no");
-
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF2-no");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF3-no");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();	
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF2-yes");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-GATCF4-no");
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
+		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-1.0-GATCF-2");
 
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.className("start-over")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(1000);
-		WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div"));
-		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:50px;')",element);
-		driver.findElement(By.linkText("How do I enroll?")).click();
-		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:0px;')",element);
+//		WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div"));
+//		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:50px;')",element);
+		driver.findElement(By.linkText("¿Cómo me inscribo?")).click();
+//		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:0px;')",element);
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-step1");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("What will we find out?")).click();
+		driver.findElement(By.linkText("¿Qué averiguaremos?")).click();
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-step2");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("What options are there?")).click();
+		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-1.0-step3");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/xolair/forms-and-documents.html");
 		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-2.0");
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-2.0-more-info-1");
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[3]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-2.0-more-info-2");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/xolair/frequently-asked-questions.html");
 		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-3.0");
@@ -312,53 +283,29 @@ public class es_xolair {
 		jse.executeScript("window.scrollTo(0, 0)");
 
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat1-no");
+		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat-1");
+			
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.className("start-over")).click();
-
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat1-yes");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat2-no");
-
 		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-pat-more-info-1");
+		
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
+		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat-2");
+		
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat2-yes");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat3-yes");
-
 		Thread.sleep(1000);
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "xolair",   "accesssolutions-mobile-patient-xolair-pat-more-info-2");
+	
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat3-no");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat4-no");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat4-yes");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[5]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat5-yes");
-
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[5]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat5-no");
+		Thread.sleep(500);
+		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-pat-3");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/xolair/search.html");
 		fullscreen.mobileScreenshots(driver, "es", "xolair",  "accesssolutions-mobile-patient-xolair-search");

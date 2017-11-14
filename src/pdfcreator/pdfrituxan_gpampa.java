@@ -14,16 +14,55 @@ public class pdfrituxan_gpampa {
 	public static final String[] IMAGES = {
 		
 		//desktop
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-0.0.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0-tab1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0-tab2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0-GATCF-1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0-GATCF-2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0-step1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0-step2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-1.0-step3.png",
 		
-	
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-2.0.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-2.0-more-info-1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-2.0-more-info-2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-2.0-esubmit.png",
+		
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab3.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab4.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab5.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab6.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab7.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab8.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab9.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab10.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-3.0-tab11.png",
+		
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-part1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-part2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-more-info-1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-more-info-2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-1-part1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-1-part2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-2-part1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-2-part2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-3-part1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-pat-3-part2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-search.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/rituxan_gpampa/accesssolutions-patient-rituxan-gpampa-sitemap.png"
+		
 		// mobile
 	};
-	public static final String DEST = "C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/pdfhemlibra.pdf";
+	public static final String DEST = "C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/pdf/pdfrituxan_gpampa.pdf";
 	 
-    public static void main(String[] args) throws MalformedURLException, IOException, DocumentException{
+    public static void main() throws MalformedURLException, IOException, DocumentException{
         File file = new File(DEST);
         file.getParentFile().mkdirs();
-        new pdfHelibra().createPdf(DEST);
+        new pdfrituxan_gpampa().createPdf(DEST);
     }
     public void createPdf(String dest) throws MalformedURLException, IOException, DocumentException{
         Image img = Image.getInstance(IMAGES[0]);

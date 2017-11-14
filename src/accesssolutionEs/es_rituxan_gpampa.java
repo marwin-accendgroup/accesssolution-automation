@@ -3,6 +3,7 @@ package accesssolutionEs;
 import library.fullscreen;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -77,6 +78,7 @@ public class es_rituxan_gpampa {
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/rituxan/rituxan-gpampa/frequently-asked-questions.html");
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0");
 		
+		driver.manage().window().setSize(new Dimension(1621,740));
 		driver.findElement(By.xpath("//*[@id='accordion']/div/div[1]")).click();
 		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0-tab1");
@@ -93,6 +95,7 @@ public class es_rituxan_gpampa {
 		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0-tab4");
 		
+		driver.manage().window().setSize(new Dimension(1621,780));
 		driver.findElement(By.xpath("//*[@id='accordion_2']/div[2]/div[1]")).click();
 		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0-tab5");
@@ -110,13 +113,14 @@ public class es_rituxan_gpampa {
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0-tab8");
 		
 		driver.findElement(By.xpath("//*[@id='accordion_3']/div[3]/div[1]")).click();
-		movecursor1(driver);
+		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0-tab9");
 		
 		driver.findElement(By.xpath("//*[@id='accordion_4']/div[1]/div[1]")).click();
 		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0-tab10");
-		
+
+		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//*[@id='accordion_4']/div[2]/div[1]")).click();
 		movecursor(driver);
 		fullscreen.desktopScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-patient-rituxan-gpampa-3.0-tab11");
@@ -201,76 +205,47 @@ public class es_rituxan_gpampa {
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF1-yes");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF3-yes");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF4-yes");
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF-1");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.className("start-over")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF1-no");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF2-no");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF3-no");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();	
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[1]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF2-yes");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[2]")).click();
-		movecursorm(driver);
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF4-no");
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-1.0-GATCF-2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.className("start-over")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(1000);
-		WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div"));
-		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:50px;')",element);
-		driver.findElement(By.linkText("How do I enroll?")).click();
-		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:0px;')",element);
+//		WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div"));
+//		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:50px;')",element);
+		driver.findElement(By.linkText("¿Cómo me inscribo?")).click();
+//		jse.executeScript("arguments[0].setAttribute('style', 'padding-bottom:0px;')",element);
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-step1");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("What will we find out?")).click();
+		driver.findElement(By.linkText("¿Qué averiguaremos?")).click();
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-step2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("What options are there?")).click();
+		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-1.0-step3");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/rituxan/rituxan-gpampa/forms-and-documents.html");
 		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-2.0");
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-2.0-more-info-1");
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[3]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-2.0-more-info-2");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/rituxan/rituxan-gpampa/frequently-asked-questions.html");
 		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-3.0");
@@ -323,43 +298,28 @@ public class es_rituxan_gpampa {
 		jse.executeScript("window.scrollTo(0, 0)");
 		
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat1-no");
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat-1");
+			
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.className("start-over")).click();
-		
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat1-yes");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat2-no");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-pat-more-info-1");
 		
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat-2");
+		
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat2-yes");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat3-yes");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
-		
-		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[1]/a")).click();
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",   "accesssolutions-mobile-patient-rituxan-gpampa-pat-more-info-2");
+	
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat3-no");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat4-yes");
-		
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[5]/div[2]/button")).click();
-		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[2]")).click();
-		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat4-no");
+		fullscreen.mobileScreenshots(driver, "es", "rituxan-gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-pat-3");	
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/rituxan/rituxan-gpampa/search.html");
 		fullscreen.mobileScreenshots(driver, "es", "rituxan_gpampa",  "accesssolutions-mobile-patient-rituxan-gpampa-search");
