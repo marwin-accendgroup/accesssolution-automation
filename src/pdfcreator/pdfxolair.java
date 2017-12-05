@@ -50,6 +50,8 @@ public class pdfxolair {
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/xolair/accesssolutions-patient-xolair-pat-1-part2.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/xolair/accesssolutions-patient-xolair-pat-2-part1.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/xolair/accesssolutions-patient-xolair-pat-2-part2.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/xolair/accesssolutions-patient-xolair-pat-3-part1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/xolair/accesssolutions-patient-xolair-pat-3-part2.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/xolair/accesssolutions-patient-xolair-search.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/xolair/accesssolutions-patient-xolair-sitemap.png"
 		

@@ -17,111 +17,111 @@ public class es_zelboraf {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		Actions actions = new Actions(driver);
 		// ---->> ituxan_nhl_cll <<---- // 38 screenshots
-//		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf.html");
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-0.0");
-//		
-//		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf/how-we-help-you.html");
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-1.0");
-//	
-//		driver.findElement(By.xpath("//*[@id='accordion']/div/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-1.0-tab1");
-//		
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		driver.findElement(By.xpath("//*[@id='accordion']/div/div[1]")).click();
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		Thread.sleep(500);
-//		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
-//		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
-//		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",  "accesssolutions-patient-zelboraf-1.0-GATCF-1");
-//		
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		driver.findElement(By.className("start-over")).click();
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
-//		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
-//		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",  "accesssolutions-patient-zelboraf-1.0-GATCF-2");
-//		
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		driver.findElement(By.className("start-over")).click();
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		driver.findElement(By.linkText("¿Cómo me inscribo?")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf", "accesssolutions-patient-zelboraf-1.0-step1");
-//		
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		driver.findElement(By.linkText("¿Qué averiguaremos?")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf", "accesssolutions-patient-zelboraf-1.0-step2");
-//		
-//		jse.executeScript("window.scrollTo(0, 0)");
-//		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf", "accesssolutions-patient-zelboraf-1.0-step3");
-//		
-//		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf/forms-and-documents.html");
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0");
-//		
-//		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div[1]/a")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0-esubmit");
-//		
-//		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/a")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0-more-info-1");
-//		
-//		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[3]/div[1]/a")).click();
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0-more-info-2");
-//		
-//		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf/frequently-asked-questions.html");
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion']/div/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab1");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_0']/div/div[1]")).click();
-//		movecursor(driver);
-//		driver.manage().window().setSize(new Dimension(1621,780));
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab2");
-//		
-//		driver.manage().window().maximize();
-//		driver.findElement(By.xpath("//*[@id='accordion_718642868']/div[1]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab3");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_718642868']/div[2]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab4");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_2']/div[1]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab5");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_2']/div[2]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab6");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_2']/div[3]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab7");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_3']/div[1]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab8");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_3']/div[2]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab9");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_3']/div[3]/div[1]")).click();
-//		movecursor1(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab10");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_4']/div[1]/div[1]")).click();
-//		movecursor1(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab11");
-//		
-//		driver.findElement(By.xpath("//*[@id='accordion_4']/div[2]/div[1]")).click();
-//		movecursor(driver);
-//		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab12");
+		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf.html");
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-0.0");
+		
+		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf/how-we-help-you.html");
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-1.0");
+	
+		driver.findElement(By.xpath("//*[@id='accordion']/div/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-1.0-tab1");
+		
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.xpath("//*[@id='accordion']/div/div[1]")).click();
+		jse.executeScript("window.scrollTo(0, 0)");
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[4]/div[2]/fieldset/button[1]")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",  "accesssolutions-patient-zelboraf-1.0-GATCF-1");
+		
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.className("start-over")).click();
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[2]")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",  "accesssolutions-patient-zelboraf-1.0-GATCF-2");
+		
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.className("start-over")).click();
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.linkText("¿Cómo me inscribo?")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf", "accesssolutions-patient-zelboraf-1.0-step1");
+		
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.linkText("¿Qué averiguaremos?")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf", "accesssolutions-patient-zelboraf-1.0-step2");
+		
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.linkText("¿Qué opciones hay?")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf", "accesssolutions-patient-zelboraf-1.0-step3");
+		
+		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf/forms-and-documents.html");
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0");
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div[1]/a")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0-esubmit");
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/a")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0-more-info-1");
+		
+		driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/div[3]/div[1]/a")).click();
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-2.0-more-info-2");
+		
+		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf/frequently-asked-questions.html");
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0");
+		
+		driver.findElement(By.xpath("//*[@id='accordion']/div/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab1");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_0']/div/div[1]")).click();
+		movecursor(driver);
+		driver.manage().window().setSize(new Dimension(1621,780));
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab2");
+		
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//*[@id='accordion_718642868']/div[1]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab3");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_718642868']/div[2]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab4");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_2']/div[1]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab5");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_2']/div[2]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab6");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_2']/div[3]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab7");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_3']/div[1]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab8");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_3']/div[2]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab9");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_3']/div[3]/div[1]")).click();
+		movecursor1(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab10");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_4']/div[1]/div[1]")).click();
+		movecursor1(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab11");
+		
+		driver.findElement(By.xpath("//*[@id='accordion_4']/div[2]/div[1]")).click();
+		movecursor(driver);
+		fullscreen.desktopScreenshots(driver, "es", "zelboraf",   "accesssolutions-patient-zelboraf-3.0-tab12");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/zelboraf/patient-assistance-tool-page.html");
 		fullscreen.desktopScreenshots(driver, "es", "zelboraf",  "accesssolutions-patient-zelboraf-pat-part1");
@@ -342,7 +342,7 @@ public class es_zelboraf {
 		WebElement element;
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		element = driver.findElement(By.linkText("Preguntas frecuentes"));
+		element = driver.findElement(By.linkText("Preguntas Frecuentes"));
 		action.moveToElement(element).build().perform();
 	}
 	public static void movecursorm(WebDriver driver) {

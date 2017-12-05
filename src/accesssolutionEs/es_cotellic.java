@@ -54,7 +54,7 @@ public class es_cotellic {
 		fullscreen.desktopScreenshots(driver, "es", "cotellic", "accesssolutions-patient-cotellic-1.0-step2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
+		driver.findElement(By.linkText("¿Qué opciones hay?")).click();
 		fullscreen.desktopScreenshots(driver, "es", "cotellic", "accesssolutions-patient-cotellic-1.0-step3");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/cotellic/forms-and-documents.html");
@@ -345,7 +345,7 @@ public class es_cotellic {
 		WebElement element;
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		element = driver.findElement(By.linkText("Preguntas frecuentes"));
+		element = driver.findElement(By.linkText("Preguntas Frecuentes"));
 		action.moveToElement(element).build().perform();
 	}
 	public static void movecursorm(WebDriver driver) {

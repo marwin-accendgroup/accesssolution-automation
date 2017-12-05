@@ -56,7 +56,7 @@ public class es_actemra {
 		fullscreen.desktopScreenshots(driver, "es", "actemra", "accesssolutions-patient-actemra-1.0-step2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
+		driver.findElement(By.linkText("¿Qué opciones hay?")).click();
 		fullscreen.desktopScreenshots(driver, "es", "actemra", "accesssolutions-patient-actemra-1.0-step3");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/actemra/forms-and-documents.html");
@@ -159,7 +159,7 @@ public class es_actemra {
 		fullscreen.desktopScreenshots(driver, "es", "actemra","accesssolutions-patient-actemra-pat-1-part2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[1]")).click();
@@ -185,7 +185,7 @@ public class es_actemra {
 		fullscreen.desktopScreenshots(driver, "es", "actemra","accesssolutions-patient-actemra-pat-3-part2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
@@ -213,6 +213,21 @@ public class es_actemra {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[6]/div[1]/a")).click();
 		fullscreen.desktopScreenshots(driver, "es", "actemra","accesssolutions-patient-actemra-pat-more-info-4");
+		
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
+		jse.executeScript("window.scrollTo(0, 0)");
+		
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[5]/div[2]/fieldset/button[1]")).click();
+		fullscreen.desktopScreenshots(driver, "es", "actemra","accesssolutions-patient-actemra-pat-5-part1");
+		
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[6]/div/p[6]")).click();
+		fullscreen.desktopScreenshots(driver, "es", "actemra","accesssolutions-patient-actemra-pat-5-part2");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/actemra/search.html");
 		fullscreen.desktopScreenshots(driver, "es", "actemra","accesssolutions-patient-actemra-search");
@@ -246,7 +261,7 @@ public class es_actemra {
 		fullscreen.mobileScreenshots(driver, "es", "actemra","accesssolutions-mobile-patient-actemra-1.0-GATCF-1");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[2]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
@@ -254,7 +269,7 @@ public class es_actemra {
 		fullscreen.mobileScreenshots(driver, "es", "actemra","accesssolutions-mobile-patient-actemra-1.0-GATCF-2");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		Thread.sleep(1000);
 		WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div"));
@@ -356,7 +371,7 @@ public class es_actemra {
 		fullscreen.mobileScreenshots(driver, "es", "actemra","accesssolutions-mobile-patient-actemra-pat-1");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[1]")).click();
@@ -372,7 +387,7 @@ public class es_actemra {
 		fullscreen.mobileScreenshots(driver, "es", "actemra","accesssolutions-mobile-patient-actemra-pat-3");
 
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.className("start-over")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
 		jse.executeScript("window.scrollTo(0, 0)");
 
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
@@ -400,6 +415,16 @@ public class es_actemra {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[6]/div[1]/a")).click();
 		fullscreen.mobileScreenshots(driver, "es", "actemra","accesssolutions-mobile-patient-actemra-pat-more-info-4");
+		
+		jse.executeScript("window.scrollTo(0, 0)");
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[7]/div[1]/button")).click();
+		jse.executeScript("window.scrollTo(0, 0)");
+		
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[1]/div[2]/fieldset/button[1]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[2]/div[2]/fieldset/button[2]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[3]/div[2]/fieldset/button[1]")).click();
+		driver.findElement(By.xpath("//*[@id='accesssolutionsembed']/div/div/div/div[2]/div[1]/ul/li[5]/div[2]/fieldset/button[1]")).click();
+		fullscreen.mobileScreenshots(driver, "es", "actemra","accesssolutions-mobile-patient-actemra-pat-5");
 
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/actemra/search.html");
 		fullscreen.mobileScreenshots(driver, "es", "actemra","accesssolutions-mobile-patient-actemra-search");
@@ -424,7 +449,7 @@ public class es_actemra {
 		WebElement element;
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		element = driver.findElement(By.linkText("Preguntas frecuentes"));
+		element = driver.findElement(By.linkText("Preguntas Frecuentes"));
 		action.moveToElement(element).build().perform();
 	}
 	public static void movecursorm(WebDriver driver) {

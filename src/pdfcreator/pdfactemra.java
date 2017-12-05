@@ -59,6 +59,8 @@ public class pdfactemra {
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/actemra/accesssolutions-patient-actemra-pat-3-part1.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/actemra/accesssolutions-patient-actemra-pat-3-part2.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/actemra/accesssolutions-patient-actemra-pat-4.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/actemra/accesssolutions-patient-actemra-pat-5-part1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/actemra/accesssolutions-patient-actemra-pat-5-part2.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/actemra/accesssolutions-patient-actemra-search.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/actemra/accesssolutions-patient-actemra-site-map.png"
 	

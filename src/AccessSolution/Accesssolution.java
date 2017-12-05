@@ -11,7 +11,7 @@ public class Accesssolution {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDrivers\\chromedriver_win32-v2.33\\chromedriver.exe");
 
-		desktop.main(args);
+//		desktop.main(args);
 //		mobile.main(args);
 		pdfcreator.main(args);
 	}

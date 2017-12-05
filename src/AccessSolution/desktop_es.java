@@ -40,7 +40,7 @@ public class desktop_es {
 //		es_erivedge.main(args, driver);			// |	37	 |	 39	  |
 //		es_esbriet.main(args, driver); 			// |	37	 |	 41   |
 //		es_gazyva.main(args, driver); 			// |	37	 |	 39	  |
-		es_hemlibra.main(args, driver); 		// |	35	 |	 38   |
+//		es_hemlibra.main(args, driver); 		// |	35	 |	 38   |
 //		es_herceptin.main(args, driver);		// |	37	 |	 39   |
 //		es_kadcyla.main(args, driver); 			// |	36	 |	 38   |
 //		es_lucentis.main(args, driver); 		// |	40	 |	 42	  |
@@ -53,7 +53,7 @@ public class desktop_es {
 //		es_rituxanhycela.main(args, driver);	// | 	38	 |	 40	  |
 //		es_tarceva.main(args, driver); 			// |	38	 |	 40	  |
 //		es_tecentriq.main(args, driver); 		// |	37	 |	 39	  |
-//		es_venclexta.main(args, driver); 		// |	34	 |	 37	  |
+		es_venclexta.main(args, driver); 		// |	34	 |	 37	  |
 //		es_xolair.main(args, driver); 			// |	35	 |	 41	  |
 //		es_zelboraf.main(args, driver);    		// |	37	 |	 39	  |
 	}

@@ -42,7 +42,8 @@ public class pdfvenclexta {
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-3.0-tab11.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-3.0-tab12.png",
 		
-		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-pat.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-pat-part1.png",
+		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-pat-part2.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-pat-more-info-1.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-pat-more-info-2.png",
 		"C:/Users/Marwin/Desktop/projects/accesssolution-automation/accesssolution/Screenshots/desktop/es/venclexta/accesssolutions-patient-venclexta-pat-1-part1.png",

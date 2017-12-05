@@ -56,7 +56,7 @@ public class es_erivedge {
 		fullscreen.desktopScreenshots(driver, "es", "erivedge", "accesssolutions-patient-erivedge-1.0-step2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
+		driver.findElement(By.linkText("¿Qué opciones hay?")).click();
 		fullscreen.desktopScreenshots(driver, "es", "erivedge", "accesssolutions-patient-erivedge-1.0-step3");
 		
 		driver.get("http://localhost:4503/content/accesssolutions-site/es/patient/brands/erivedge/forms-and-documents.html");
@@ -228,7 +228,7 @@ public class es_erivedge {
 		fullscreen.mobileScreenshots(driver, "es", "erivedge",   "accesssolutions-mobile-patient-erivedge-1.0-step2");
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		driver.findElement(By.linkText("¿Qué Opciones Hay?")).click();
+		driver.findElement(By.linkText("¿Qué opciones hay?")).click();
 		movecursorm(driver);
 		fullscreen.mobileScreenshots(driver, "es", "erivedge",   "accesssolutions-mobile-patient-erivedge-1.0-step3");
 		
@@ -345,7 +345,7 @@ public class es_erivedge {
 		WebElement element;
 		
 		jse.executeScript("window.scrollTo(0, 0)");
-		element = driver.findElement(By.linkText("Preguntas frecuentes"));
+		element = driver.findElement(By.linkText("Preguntas Frecuentes"));
 		action.moveToElement(element).build().perform();
 	}
 	public static void movecursorm(WebDriver driver) {
